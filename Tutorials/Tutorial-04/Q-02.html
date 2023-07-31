@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q-02</title>
+    <style>
+      fieldset {
+        border: 1px solid black;
+        padding: 25px;
+        padding-right: 3px;
+        width: 300px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Car Registration</legend>
+        <table>
+          <tr>
+            <td width="100">Owner Name</td>
+            <td><input type="text" placeholder="Owner Name" /></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="email" placeholder="Email" /></td>
+          </tr>
+          <tr>
+            <td>Phone Number</td>
+            <td><input type="text" placeholder="Phone Number" /></td>
+          </tr>
+          <tr>
+            <td>Country</td>
+            <td>
+              <select name="country">
+                <option value="Sri Lanka">Sri Lanka</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Car Model</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Manufacture Year</td>
+            <td>
+              <select name="year">
+                <option value="Select Year">Select Year</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Transmission</td>
+            <td>
+              <input type="radio" name="t" />Manual<input
+                type="radio"
+                name="t"
+              />Auto
+            </td>
+          </tr>
+          <tr>
+            <td>Other</td>
+            <td><textarea name="" id="" cols="20" rows="3"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="checkbox" />I agree to the conditions and terms
+            </td>
+          </tr>
+          <tr>
+            <td><input type="button" value="Submit" /></td>
+            <td><input type="button" value="Reset" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
